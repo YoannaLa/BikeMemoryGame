@@ -1,4 +1,4 @@
-/* --------- Basic style */
+/* Basic style */
 body {
     background-color:rgb(221, 189, 166);
     width: 100%;
@@ -52,7 +52,7 @@ body {
 /* Game layout */
 .game-grid {
     box-sizing: border-box;
-    width: 85%;
+    width: 100%;
     height: 65vh;
     max-height: 450px;
     max-width: 630px;
@@ -65,18 +65,19 @@ body {
 .row {
     align-content: center;
 }
-.card {
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12, .card13, .card14, .card14, .card15, .card16 {
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-image:url("../images/Helmet.jpg");
+    width: 110px;
+    height: 110px;
     cursor: pointer;
 }
+
 .card:hover {
     box-shadow: inset 0px 0px 0px 3px  #445361;
     border: border-box;
 }
 
+/**score and time area*/
 .score-area {
     width: 100%;
     font-size: 1.5rem;
