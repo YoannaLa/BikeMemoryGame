@@ -11,6 +11,13 @@ body {
 .title {
     color:#445361;
     font-size: 30px;
+    padding: 25px 25px;
+    float: center;
+}
+
+.HowToPlayButton {
+  padding: 25px 25px;
+  float: center;
 }
 /* The Modal */
 .modal {
@@ -24,14 +31,15 @@ body {
     overflow: auto; 
      }
   
-  .modal-content {
+.modal-content {
     background-color: #fefefe;
     margin: 15% auto; 
     padding: 10px;
     border: 1px solid rgb(243, 243, 81);
     width: 25%; 
   }
-  #myBtn {
+#myBtn {
+
     border: 2px solid rgb(243, 243, 81);
     font-size: 15px;
   }
@@ -39,48 +47,81 @@ body {
   .close {
     color: #888;
     float: center;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
   }
   
-  .close:hover,  .close:focus {
-    color: #888;
+  .close:hover,.close:focus {
+    color: red;
     text-decoration: none;
-    cursor: pointer;
+    cursor:pointer;
   }
   
 /* Game layout */
-.game-grid {
-    box-sizing: border-box;
-    width: 100%;
-    height: 65vh;
-    max-height: 450px;
-    max-width: 630px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    padding: 5px 5px 5px 5px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.row {
-    align-content: center;
-}
-.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12, .card13, .card14, .card14, .card15, .card16 {
-    display: inline-block;
-    width: 110px;
-    height: 110px;
-    cursor: pointer;
+.game-grid{
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ 
+.bikecard {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 5px;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
 }
 
-.card:hover {
-    box-shadow: inset 0px 0px 0px 3px  #445361;
-    border: border-box;
+.bikecard.flip {
+  transform: rotateY(180deg);
 }
+
+.bikecard.active {
+  transform: scale(.97);
+  transition: transform .5s;
+}
+
+img {
+  width: 100px;
+}
+
+.front-face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 25px;
+}
+.back-face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 1px solid yellow;
+  border-radius: 25px;
+}
+
+.front-face {
+  transform: rotateY(180deg);
+}
+
 
 /**score and time area*/
 .score-area {
     width: 100%;
     font-size: 1.5rem;
+    display: inline-block;
+    padding: 25px;
   }
 
 #moves {
@@ -89,11 +130,8 @@ body {
 }
 
 #time {
+    display:block;
+    position: relative;
     color: red;
     font-weight: bold;
-}
-
-.moves{
-    display: inline-block;
-    padding: 25px;
 }
