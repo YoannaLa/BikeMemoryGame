@@ -131,9 +131,13 @@ img {
     font-weight: bold;
 }
 
-#time {
+#timer {
     display:block;
     position: relative;
     color: red;
     font-weight: bold;
 }
+.restart {
+  float: right;
+	cursor: pointer;
+	}

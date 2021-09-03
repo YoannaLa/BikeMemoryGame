@@ -1,4 +1,3 @@
-// cards array with bike images
 const cards = document.querySelectorAll('.bikecard');
 
 let hasFlippedCard = false;
@@ -12,14 +11,13 @@ function flipCard() {
     this.classList.toggle('flip');
 
     if (!hasFlippedCard) {
-
-//first click
+        //first click
         hasFlippedCard = true;
         firstCard = this;
 
         return;
     } 
-// second click
+        // second click
         hasFlippedCard = false;
         secondCard = this;
 
@@ -44,7 +42,7 @@ function disableCards() {
 function unflipCards() {
 lockBoard = true;
 
-//not a match
+    //not a match
     setTimeout(() => {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
@@ -68,9 +66,10 @@ function resetBoard() {
 var sec = 0;
 function pad ( val ) { return val > 9 ? val : "0" + val; }
   setInterval( function(){
-  document.getElementsByClassName("seconds").innerHTML=pad(++sec%60);
-  document.getElementByClassName("minutes").innerHTML=pad(parseInt(sec/60,10));
+  document.getElementById("seconds").innerHTML=pad(++sec%60);
+  document.getElementById("minutes").innerHTML=pad(parseInt(sec/60,10));
     }, 1000);
+
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
