@@ -25,7 +25,7 @@ function flipCard() {
 }
 
 function checkForMatch() {
-    let isMatch = firstCard.data.type === secondCard.data.type;
+    let isMatch = firstCard.data-type == secondCard.data-type;
 
     isMatch ? disableCards() : unflipCards();
     
@@ -43,7 +43,7 @@ function unflipCards() {
 lockBoard = true;
 
     //not a match
-    setTimeout(() => {
+  setTimeout(() => {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
         
@@ -56,6 +56,7 @@ function resetBoard() {
     [firstCard, secondCard] = [null, null];
 }
 
+//shuffle cards
 (function shuffle() {
     cards.forEach(card => {
         let randomPos = Math.floor(Math.random() * 12);
