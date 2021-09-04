@@ -4,6 +4,8 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 
+console.log ('.bikecard');
+
 function flipCard() {
 
     if(lockBoard) return;
@@ -14,7 +16,6 @@ function flipCard() {
         //first click
         hasFlippedCard = true;
         firstCard = this;
-
         return;
     } 
         // second click
@@ -25,14 +26,12 @@ function flipCard() {
 }
 
 function checkForMatch() {
-    let isMatch = firstCard.data-type == secondCard.data-type;
-
+    let isMatch = firstCard.dataset.type == secondCard.dataset.type;
     isMatch ? disableCards() : unflipCards();
     
 }
 
 function disableCards() {
-
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
 
@@ -40,7 +39,7 @@ function disableCards() {
 }
 
 function unflipCards() {
-lockBoard = true;
+  lockBoard = true;
 
     //not a match
   setTimeout(() => {
