@@ -58,21 +58,20 @@ function resetBoard() {
 //shuffle cards
 (function shuffle() {
     cards.forEach(card => {
-        let randomPos = Math.floor(Math.random() * 12);
+        let randomPos = Math.floor(Math.random() * 14);
         card.style.order = randomPos;
     });
 })();
 
-var sec = 0;
-function pad ( val ) { return val > 9 ? val : "0" + val; }
-  setInterval( function(){
-  document.getElementById("seconds").innerHTML=pad(++sec%60);
-  document.getElementById("minutes").innerHTML=pad(parseInt(sec/60,10));
-    }, 1000);
-
+//timer
+var seconds = document.getElementsByClassName("timer").textContent;
+var countdown = setInterval(function(){
+    seconds--;
+    document.getElementsByClassName("timer").textContent = seconds;
+    if (seconds <= 0) clearInterval(countdown);
+}, 1000);
 
 cards.forEach(card => card.addEventListener('click', flipCard));
-
 
 
 // Get the modal
