@@ -113,7 +113,6 @@ img {
 .face-down {
   height: 100%;
   width:100%;
-  padding-bottom: 100%;
   background-position: center;
   background-size: contain;
   border-radius: 8px;

@@ -63,18 +63,56 @@ function resetBoard() {
     });
 })();
 
-//timer
 
 
-var seconds = document.getElementsByClassName("timer").textContent;
-var countdown = setInterval(function(){
-    seconds--;
-    document.getElementsByClassName("timer").textContent = seconds;
-    if (seconds <= 0) clearInterval(countdown);
-}, 1000);
+//Timer
+const timerContainer = document.querySelector(".timer");
+let liveTimer,
+    totalSeconds = 0;
+
+timerContainer.innerHTML = totalSeconds + ' s';
+
+ function startTimer() {
+    liveTimer = setInterval(function() {
+        totalSeconds++;
+        timerContainer.innerHTML = totalSeconds + 's';
+    }, 1000);
+}
+
+startTimer()
+
+function stopTimer() {
+    clearInterval(liveTimer);
+}
+
+
+//Congrats message
+
+
+
+//Game Reset
+function myButton() {
+  location.reload();
+}
+
+//If second card match with first card it will return from the function
+function resetBoard() {
+  hasFlippedCard = false;
+  lockBoard = false;
+  firstCard = null;
+  secondCard = null;
+}
+
+//Use to shuffle cards - 8 front and 8 back side = 16
+(function shuffle() {
+  cards.forEach(card => {
+    let randomPos = Math.floor(Math.random() * 16);
+    card.style.order = randomPos;
+  });
+
+})();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
-
 
 // Get the modal
 var modal = document.getElementById("myModal");
