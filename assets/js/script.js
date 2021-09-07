@@ -64,6 +64,8 @@ function resetBoard() {
 })();
 
 //timer
+
+
 var seconds = document.getElementsByClassName("timer").textContent;
 var countdown = setInterval(function(){
     seconds--;
