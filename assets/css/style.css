@@ -121,9 +121,8 @@ img {
   }
 
 /**score and time area*/
-.score-area, .timer {
+#score-area, .timer, #countDown {
   font-size: 25px;
-  padding: 10px 10px 10px 10px;
   margin-top: 15px;
   margin-bottom: 15px;
   cursor:pointer;
@@ -141,5 +140,5 @@ img {
   .created-by{
     font-size: 15px;
     padding: 10px 10px 10px 10px;
- 
+
   }

@@ -66,24 +66,22 @@ function resetBoard() {
 
 
 //Timer
-const timerContainer = document.querySelector(".timer");
-let liveTimer,
-    totalSeconds = 0;
+document.getElementById("gameStart").addEventListener("click", function(){
+  var timeleft = 15;
 
-timerContainer.innerHTML = totalSeconds + ' s';
+  var downloadTimer = setInterval(function function1(){
+  document.getElementById("countdown").innerHTML = timeleft + 
+  " "+"seconds remaining";
 
- function startTimer() {
-    liveTimer = setInterval(function() {
-        totalSeconds++;
-        timerContainer.innerHTML = totalSeconds + 's';
-    }, 1000);
-}
+  timeleft -= 1;
+  if(timeleft <= 0){
+      clearInterval(downloadTimer);
+      document.getElementById("countdown").innerHTML = "Time is up!"
+  }
+  }, 1000);
 
-startTimer()
-
-function stopTimer() {
-    clearInterval(liveTimer);
-}
+  console.log(countdown);
+});
 
 
 //Congrats message
