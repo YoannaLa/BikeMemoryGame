@@ -73,9 +73,9 @@ function resetBoard() {
 //Timer
 function Timer() {
   var count = 10, timer = setInterval(function() {
-    document.getElementById("countDown").innerHTML=count--;
+    document.getElementById("count-down").innerHTML=count--;
     if(count == 0) {
-    document.getElementById("countDown").innerHTML=0;
+    document.getElementById("count-down").innerHTML=0;
       clearInterval(timer);
       alert("timeup");
     } 

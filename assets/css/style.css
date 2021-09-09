@@ -121,11 +121,15 @@ img {
   }
 
 /**score and time area*/
-#score-area, .timer, #countDown {
+#match-it {
   font-size: 25px;
   margin-top: 15px;
   margin-bottom: 15px;
   cursor:pointer;
+  }
+  #count-down {
+    font-size: 25px;
+    color: red;
   }
 
   #reset {
