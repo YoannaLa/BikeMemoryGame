@@ -4,7 +4,9 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 
+
 console.log ('.bikecard');
+Timer();
 
 function flipCard() {
 
@@ -16,6 +18,7 @@ function flipCard() {
         //first click
         hasFlippedCard = true;
         firstCard = this;
+      
         return;
     } 
         // second click
@@ -54,6 +57,9 @@ function resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 }
+  function allMatch() {
+    
+  }
 
 //shuffle cards
 (function shuffle() {
@@ -64,29 +70,20 @@ function resetBoard() {
 })();
 
 
-
 //Timer
-document.getElementById("gameStart").addEventListener("click", function(){
-  var timeleft = 15;
-
-  var downloadTimer = setInterval(function function1(){
-  document.getElementById("countdown").innerHTML = timeleft + 
-  " "+"seconds remaining";
-
-  timeleft -= 1;
-  if(timeleft <= 0){
-      clearInterval(downloadTimer);
-      document.getElementById("countdown").innerHTML = "Time is up!"
-  }
+function Timer() {
+  var count = 10, timer = setInterval(function() {
+    document.getElementById("countDown").innerHTML=count--;
+    if(count == 0) {
+    document.getElementById("countDown").innerHTML=0;
+      clearInterval(timer);
+      alert("timeup");
+    } 
   }, 1000);
+}
 
-  console.log(countdown);
-});
-
-
-//Congrats message
-
-
+//Congrats message - game over
+                          
 
 //Game Reset
 function myButton() {
