@@ -152,18 +152,18 @@ img {
   
   @media (max-width: 480px) {
 
-    .title{
+    .title {
       font-size: 20px;
       text-align: center;
       padding: 5px 5px 5px 5px;
   
     }
-
+    
     .game-grid {
+      width: 350px;
+      height: 350px;
       margin: 5px 5px 5px 5px;
-      grid-gap: -10px;
-      display:-ms-grid;
-             }
+            }
 
     #reset {
       font-size: 15px;
@@ -179,6 +179,7 @@ img {
     }
     #score-area {
       margin: 10px 10px 10px 10px;
+      font-size: 15px;
 
     }
   
