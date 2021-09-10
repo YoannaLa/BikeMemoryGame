@@ -77,7 +77,7 @@ function Timer() {
     if(count === -2) {
     document.getElementById("count-down").innerHTML=0;
       clearInterval(timer);
-      alert("timeup");
+      alert("Times Up!!!");
     } 
   }, 1000);
 }
