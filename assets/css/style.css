@@ -12,7 +12,7 @@ body {
     color:#16181a;
     font-size: 30px;
     padding: 25px 25px;
-    float: center;
+    text-align: center;
 }
 
 .HowToPlayButton {
@@ -72,7 +72,6 @@ body {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-
  }
  
 .bikecard {
@@ -133,7 +132,7 @@ img {
     color: red;
   }
 
-  /** lets do this again button*/
+  /** "lets do this again" button*/
   #reset {
     border: 2px solid rgb(243, 243, 81);
     font-size: 15px;
@@ -153,30 +152,40 @@ img {
   
   @media (max-width: 480px) {
 
-      .game-grid {
-        margin: 5px 5px;
-        grid-gap: 1px;
-      }
-
-      #reset {
-        font-size: 15px;
-        width: 9rem;
-        height: 3rem;
-        padding: 0;
+    .title{
+      font-size: 20px;
+      text-align: center;
+      padding: 5px 5px 5px 5px;
+  
     }
-   .bikecard {
-     width: 80px;
-     height: 80px;
+
+    .game-grid {
+      margin: 5px 5px 5px 5px;
+      grid-gap: 1px;
+             }
+
+    #reset {
+      font-size: 15px;
+      width: 9rem;
+      height: 3rem;
+      padding: 0;
+    }
+
+    .bikecard {
+      width: 80px;
+      height: 80px;
    
     }
+    #score-area {
+      margin: 10px 10px 10px 10px;
 
-      .HowToPlayButton {
-        align-content: center;
-        float:none;
-        font-size: 15px;
-        width: 9rem;
-        height: 3rem;
-        padding: 0;
+    }
+  
 
+
+    .HowToPlayButton {
+      text-align: center;  
+      font-size: 15px;
+      
       }
     }
