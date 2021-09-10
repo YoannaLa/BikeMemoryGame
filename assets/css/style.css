@@ -1,15 +1,15 @@
 /* Basic style */
 body {
-    background-color:rgb(221, 189, 166);
+    background-color:rgb(221, 189, 166, 0.6);
     width: 100%;
     font-family: 'Libre Franklin';
-    color: #445361;
+    color: #16181a;
     text-align: center;
 }
 
 /* Heading */
 .title {
-    color:#445361;
+    color:#16181a;
     font-size: 30px;
     padding: 25px 25px;
     float: center;
@@ -18,6 +18,7 @@ body {
 .HowToPlayButton {
   padding: 25px 25px 25px 25px;
   float: center;
+  cursor:pointer;
 }
 /* The Modal */
 .modal {
@@ -86,7 +87,6 @@ body {
 
 .bikecard.flip {
   transform: rotateY(180deg);
-
 }
 
 .bikecard.active {
@@ -121,17 +121,19 @@ img {
   }
 
 /**score and time area*/
-#match-it {
-  font-size: 25px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  cursor:pointer;
+  #match-it {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor:pointer;
   }
+
   #count-down {
     font-size: 25px;
     color: red;
   }
 
+  /** lets do this again button*/
   #reset {
     border: 2px solid rgb(243, 243, 81);
     font-size: 15px;
@@ -141,8 +143,40 @@ img {
     cursor:pointer;
 	}
   
+  /*footer*/
   .created-by{
     font-size: 15px;
     padding: 10px 10px 10px 10px;
 
   }
+  /* For media medium size screen sizes from 480px wide and dows*/
+  
+  @media (max-width: 480px) {
+
+      .game-grid {
+        margin: 5px 5px;
+        grid-gap: 1px;
+      }
+
+      #reset {
+        font-size: 15px;
+        width: 9rem;
+        height: 3rem;
+        padding: 0;
+    }
+   .bikecard {
+     width: 80px;
+     height: 80px;
+   
+    }
+
+      .HowToPlayButton {
+        align-content: center;
+        float:none;
+        font-size: 15px;
+        width: 9rem;
+        height: 3rem;
+        padding: 0;
+
+      }
+    }
