@@ -61,7 +61,46 @@ Initial draft of how the website should look like, I've changed few things as I'
 
     4.4	Compatibility testing
 
-    4.5	Code Validation
+### Code Validation
+  #### Jshint 
+* Code Validation for JavaScript - I've updated the unsed variables
+Metrics
+There are 19 functions in this file.
+Function with the largest signature take 1 arguments, while the median is 0.
+Largest function has 10 statements in it, while the median is 2.
+The most complex function has a cyclomatic complexity value of 4 while the median is 1.
+15 warnings
+1.	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+3.	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+4.	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+5.	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+32.	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+33.	Expected an assignment or function call and instead saw an expression.
+48.	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+57.	'destructuring assignment' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+58.	'destructuring assignment' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+66.	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+67.	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+103.	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+104.	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+110.	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+135.	Unnecessary semicolon.
+
+<img src="assets/images/JavaScript - jshint.jpg">
+
+* Two unused variables - I've changed those in the file
+1. 60	allMatch
+2. 89	myButton  
+
+#### W3C
+* 8 errors found as per image - I've corrected all of them 
+
+<img src="assets/images/CodeValHtmlScreen.jpg">
+
+I've corrected all of them and "Document checking completed. No errors or warnings to show"
+
+<img src="assets/images/CodeValHtml2.jpg">
+
 
 # User stories testing
 ## As a business owner: 
@@ -74,8 +113,36 @@ The better color contrast helps with user experience and
 * 
 
 # Performance testing
-* Jshint - 
-* W3C - 
+* Jshint - I've corrected the unused variables
+Metrics
+There are 19 functions in this file.
+Function with the largest signature take 1 arguments, while the median is 0.
+Largest function has 10 statements in it, while the median is 2.
+The most complex function has a cyclomatic complexity value of 4 while the median is 1.
+15 warnings
+1	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+3	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+4	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+5	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+32	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+33	Expected an assignment or function call and instead saw an expression.
+48	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+57	'destructuring assignment' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+58	'destructuring assignment' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+66	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+67	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+103	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+104	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+110	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+135	Unnecessary semicolon.
+
+<img src="assets/images/JavaScript - jshint.jpg">
+
+* Two unused variables
+60	allMatch
+89	myButton
+
+
 * Jigsaw - 
 
 # Deployment
