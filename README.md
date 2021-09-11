@@ -59,7 +59,10 @@ Initial draft of how the website should look like, I've changed few things as I'
 
     4.3	Functionality testing
 
-    4.4	Compatibility testing
+### Compatibility testing
+The game was tested and played across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools.
+I tested on hardware devices such as: iPhoneX, Samsung A70 and Microsoft Surface also
+I've used this website to check responsives of my website (http://ami.responsivedesign.is/)
 
 ### Code Validation
   #### Jshint 
@@ -92,7 +95,7 @@ The most complex function has a cyclomatic complexity value of 4 while the media
 1. 60	allMatch
 2. 89	myButton  
 
-#### W3C
+#### W3C - hmtl
 * 8 errors found as per image - I've corrected all of them 
 
 <img src="assets/images/CodeValHtmlScreen.jpg">
@@ -100,6 +103,15 @@ The most complex function has a cyclomatic complexity value of 4 while the media
 I've corrected all of them and "Document checking completed. No errors or warnings to show"
 
 <img src="assets/images/CodeValHtml2.jpg">
+
+#### W3C - CSS
+* 2 errors found as per image 
+
+<img src="assets/images/CodeValCss.jpg">
+
+** I've corrected the errors and run the code again and recived "Congratulations! No Error Found."
+
+<img src="assets/images/CodeValCss2.jpg">
 
 
 # User stories testing
@@ -113,37 +125,16 @@ The better color contrast helps with user experience and
 * 
 
 # Performance testing
-* Jshint - I've corrected the unused variables
-Metrics
-There are 19 functions in this file.
-Function with the largest signature take 1 arguments, while the median is 0.
-Largest function has 10 statements in it, while the median is 2.
-The most complex function has a cyclomatic complexity value of 4 while the median is 1.
-15 warnings
-1	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-3	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-4	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-5	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-32	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-33	Expected an assignment or function call and instead saw an expression.
-48	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-57	'destructuring assignment' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-58	'destructuring assignment' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-66	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-67	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-103	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-104	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-110	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
-135	Unnecessary semicolon.
+* I run Lighthouse tool to check performance of the website. I made one change and added missing meta-data discription to my html file and the overall preformance approved by 1%.Screenshots are presented below:
 
-<img src="assets/images/JavaScript - jshint.jpg">
+<img src="assets/images/AccessibilityTesting.jpg"> 
 
-* Two unused variables
-60	allMatch
-89	myButton
+<img src="assets/images/PreformanceTesting.jpg">
 
+<img src="assets/images/BestPractice.jpg"> 
 
-* Jigsaw - 
+<img src="assets/images/Seo.jpg">
+
 
 # Deployment
 ### This project was deployed on GitHub Pages. 
