@@ -103,3 +103,8 @@ Used those website: (https://www.w3schools.com/), (https://developer.mozilla.org
 
 
 # Screenshots
+
+<img src="assets/images/ScreenShot1.jpg">
+<img src="assets/images/ScreenShot2.jpg">
+<img src="assets/images/ScreenShot3.jpg">
+<img src="assets/images/ScreenShot4.jpg">
