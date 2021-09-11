@@ -1,7 +1,9 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
- # JavaScript Essentials - interactive front-end site.
+# JavaScript Essentials - interactive front-end site, by YoannaLa
+
 ## The deployed site can be find:
+
 https://github.com/YoannaLa/BikeMemoryGame
 
 Memory game, with the 16 cards that shuffles every time the player starts a game. The player has only 45 seconds of find the matching 8 motorbike cards.
