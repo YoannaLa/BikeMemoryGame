@@ -14,7 +14,6 @@ Memory game, with 8 pairs of cards, that shuffles every time the player starts a
 #### Returning user goals
 A returning player can challenge her/himself and test their memory and find out if is getting any better. 
 
-
 ### User stories
 #### As a website owner
 I've noticed a massive trend in last few years of memory or matching games being very popular and I'm a user myself. In creating this game I've combined the love of motorbikes and simple challenge 
@@ -39,10 +38,22 @@ Initial draft of how the website should look like, I've changed few things as I'
 * Background color - rgb(221, 189, 166); which I made it lighter with adding 0.6 variable.
 * Font color – #16181a;
 
+## Features
 
-2	Features
+### Technology
+#### HTML
+* As a structure language
+#### CSS 
+* As a style language 
+#### JavaScript 
+* As an interactive language
+#### Font Awesome 
+* Used for the icon of the bike 
+#### Google fonts 
+* As a font resource for the game
+#### GitHub 
+* As the hosting software platform to accommodate remote location 
 
-3	Technology
 
 4	Testing
 
@@ -54,11 +65,11 @@ Initial draft of how the website should look like, I've changed few things as I'
 
 # User stories testing
 ## As a business owner: 
-*
+* I found matching the cards enjoyable and it fits well on different screens sizes.
 ## As a new customer: 
-* 
+* Feedback from the other players was color contrast and font color which was ajusted.  
 ## As a returning customer:
-
+The better color contrast helps with user experience and  
 ## Issues found during site development
 * 
 
