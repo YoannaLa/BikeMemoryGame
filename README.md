@@ -122,10 +122,11 @@ I've corrected all of them and "Document checking completed. No errors or warnin
 ## As a returning customer:
 The better color contrast helps with user experience and  
 ## Issues found during site development
-* 
+* I found JavaScript extremely hard. I’ve been working on this for days, watching lots of youTube videos to get a better understanding. I’ve also took few days off work to complete this game. I realised I need more support; I need things to be explain to me face-to-face or in an environment I can asked question and share screen, etc., I feel like I have not been supported thou this course. 
+Also what have made a massive difference in my confidence is that I've found out on Thursday, that I have failed my first assessment, which I was convinced I’ve passed. I’ve chatted to my mentor, and he shine some little on the feedback but the only think I could think that I will fail this one coz I don’t know what I’ve done wrong. I’ve asked for clarification on the feedback but have not receive anything in time. My mental health has suffered massively and once again not support from the anyone. I think I could produce much better submission if I been informed and had time to digest and get some prop clarification on what I’ve failed on. 
 
 # Performance testing
-* I run Lighthouse tool to check performance of the website. I made one change and added missing meta-data discription to my html file and the overall preformance approved by 1%.Screenshots are presented below:
+* I run Lighthouse (https://developers.google.com/web/tools/lighthouse) tool to check performance of the website. I made one change and added missing meta-data discription to my html file and the overall preformance approved by 1%.Screenshots are presented below:
 
 <img src="assets/images/AccessibilityTesting.jpg"> 
 
