@@ -14,70 +14,70 @@ Memory game, with the 16 cards that shuffles every time the player starts a game
 ## Website owner business goals
 I have created a memory game using html, CSS and JavaScript. I've combined the love of simple memory game and motorbikes. I decided on hiding 8 pairs of motorbikes underneath 16 motorbike helmets. I gave a player 45 second to find the pairs. It is challenging, but I’ve successful won against the clock few times.
 
-### User goals
-#### New user goals
+## User goals
+### New user goals
 Memory game, with 8 pairs of cards, that shuffles every time the player starts a game. The player has only 45 seconds of find the matching 8 motorbike cards, if not a alert message will appear “times up”
 
-#### Returning user goals
+### Returning user goals
 A returning player can challenge her/himself and test their memory and find out if is getting any better. 
 
-### User stories
-#### As a website owner
+## User stories
+####As a website owner
 I've noticed a massive trend in last few years of memory or matching games being very popular and I'm a user myself. In creating this game I've combined the love of motorbikes and simple challenge 
 
-#### New user 
+### New user 
 A simple card game which helps to train memory and can be used as a challenge. 
 
-#### Returning user goals
+####Returning user goals
 A returning player can test themselves if they memory got any better. 
 
-### Structure of the website
+## Structure of the website
 The game is structured on a single page that includes the game name, pop out window explaining the rules of the game. There are 16 cards (squares) with 8 matching cards, which are faced down and the user can only see the identical faceup image which is a image of a helmet. The player has 45 seconds to match all 8 pairs or an alert with “times up” will come up. The player then can resume the game, the cards will be reshuffled, and the timer will start again. If the player beats the 45 second a congratulation message will appear when all cards matched.
 
-### Wireframes
+## Wireframes
 Initial draft of how the website should look like, I've changed few things as I've learn more about html and css and javascript
 
 <img src="assets/images/WireFrames.png">
 
-## Surface
-### Colors
+# Surface
+## Colors
 * Background color - rgb(221, 189, 166); which I made it lighter with adding 0.6 variable.
 * Font color – #16181a;
 
-## Features
+# Features
 The project contains of one page with a card memory game. Matching 8 pairs of motorbikes. Game on the top of the page, how to play button, 16 cards to be turned and matched, a running countdown clock with 45 seconds on and information on who created the game
 
-### Technology
-#### HTML
+## Technology
+### HTML
 * As a structure language
 
-#### CSS 
+### CSS 
 * As a style language 
 
-#### JavaScript 
+### JavaScript 
 * As an interactive language
 
-#### Font Awesome 
+### Font Awesome 
 * Used for the icon of the bike 
 
-#### Google fonts 
+### Google fonts 
 * As a font resource for the game
 
-#### GitHub 
+### GitHub 
 * As the hosting software platform to accommodate remote location 
 
-## Testing
-### Functionality testing
+# Testing
+## Functionality testing
 Site was tested across multiple virtual mobile devices and browsers, IphoneX and Samsung A70.
 I've checked all supported devices in Chrome developer tools. Also the website was send across to few other friends 
 
-### Compatibility testing
+## Compatibility testing
 The game was tested and played across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools.
 I tested on hardware devices such as: iPhoneX, Samsung A70 and Microsoft Surface also
 I've used this website to check responsives of my website (http://ami.responsivedesign.is/)
 
-### Code Validation
-#### Jshint 
+## Code Validation
+### Jshint 
 * Code Validation for JavaScript - I've updated the unsed variables
 Metrics
 There are 19 functions in this file.
@@ -107,7 +107,7 @@ The most complex function has a cyclomatic complexity value of 4 while the media
 1. 60	allMatch
 2. 89	myButton  
 
-#### W3C - hmtl
+### W3C - hmtl
 * 8 errors found as per image - I've corrected all of them 
 
 <img src="assets/images/CodeValHtmlScreen.jpg">
@@ -116,7 +116,7 @@ I've corrected all of them and "Document checking completed. No errors or warnin
 
 <img src="assets/images/CodeValHtml2.jpg">
 
-#### W3C - CSS
+### W3C - CSS
 * 2 errors found as per image 
 
 <img src="assets/images/CodeValCss.jpg">
@@ -153,7 +153,7 @@ Also what have made a massive difference in my confidence is that I've found out
 
 
 # Deployment
-### This project was deployed on GitHub Pages. 
+## This project was deployed on GitHub Pages. 
 I used GitPod as a development environment where I committed all changes to git and push command to GitPod for the changes go be saved.
 
 To deploy a project I had to:
