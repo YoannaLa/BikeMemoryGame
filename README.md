@@ -1,9 +1,12 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+JavaScript Essentials - interactive front-end site.
+
 Memory game, with the 16 cards that shuffles every time the player starts a game. The player has only 45 seconds of find the matching 8 motorbike cards.
 
-# UX
+<img src="assets/images/ResponsiveImage.jpg">
 
+# UX
 ## Website owner business goals
 I have created a memory game using html, CSS and JavaScript. I've combined the love of simple memory game and motorbikes. I decided on hiding 8 pairs of motorbikes underneath 16 motorbike helmets. I gave a player 45 second to find the pairs. It is challenging, but I’ve successful won against the clock few times.
 
@@ -23,7 +26,6 @@ A simple card game which helps to train memory and can be used as a challenge.
 
 #### Returning user goals
 A returning player can test themselves if they memory got any better. 
-
 
 ### Structure of the website
 The game is structured on a single page that includes the game name, pop out window explaining the rules of the game. There are 16 cards (squares) with 8 matching cards, which are faced down and the user can only see the identical faceup image which is a image of a helmet. The player has 45 seconds to match all 8 pairs or an alert with “times up” will come up. The player then can resume the game, the cards will be reshuffled, and the timer will start again. If the player beats the 45 second a congratulation message will appear when all cards matched.
