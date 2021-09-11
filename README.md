@@ -43,25 +43,31 @@ Initial draft of how the website should look like, I've changed few things as I'
 * Font color – #16181a;
 
 ## Features
+The project contains of one page with a card memory game. Matching 8 pairs of motorbikes. Game on the top of the page, how to play button, 16 cards to be turned and matched, a running countdown clock with 45 seconds on and information on who created the game
 
 ### Technology
 #### HTML
 * As a structure language
+
 #### CSS 
 * As a style language 
+
 #### JavaScript 
 * As an interactive language
+
 #### Font Awesome 
 * Used for the icon of the bike 
+
 #### Google fonts 
 * As a font resource for the game
+
 #### GitHub 
 * As the hosting software platform to accommodate remote location 
 
-
-4	Testing
-
-    4.3	Functionality testing
+## Testing
+### Functionality testing
+Site was tested across multiple virtual mobile devices and browsers, IphoneX and Samsung A70.
+I've checked all supported devices in Chrome developer tools. Also the website was send across to few other friends 
 
 ### Compatibility testing
 The game was tested and played across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools.
@@ -69,7 +75,7 @@ I tested on hardware devices such as: iPhoneX, Samsung A70 and Microsoft Surface
 I've used this website to check responsives of my website (http://ami.responsivedesign.is/)
 
 ### Code Validation
-  #### Jshint 
+#### Jshint 
 * Code Validation for JavaScript - I've updated the unsed variables
 Metrics
 There are 19 functions in this file.
@@ -121,11 +127,14 @@ I've corrected all of them and "Document checking completed. No errors or warnin
 # User stories testing
 ## As a business owner: 
 * I found matching the cards enjoyable and it fits well on different screens sizes.
+
 ## As a new customer: 
-* Feedback from the other players was color contrast and font color which was ajusted.  
+* Feedback from the other players was color contrast and font color which was ajusted. 
+
 ## As a returning customer:
 The better color contrast helps with user experience and  
-## Issues found during site development
+
+## Issues found during site development:
 * I found JavaScript extremely hard. I’ve been working on this for days, watching lots of youTube videos to get a better understanding. I’ve also took few days off work to complete this game. I realised I need more support; I need things to be explain to me face-to-face or in an environment I can asked question and share screen, etc., I feel like I have not been supported thou this course. 
 Also what have made a massive difference in my confidence is that I've found out on Thursday, that I have failed my first assessment, which I was convinced I’ve passed. I’ve chatted to my mentor, and he shine some little on the feedback but the only think I could think that I will fail this one coz I don’t know what I’ve done wrong. I’ve asked for clarification on the feedback but have not receive anything in time. My mental health has suffered massively and once again not support from the anyone. I think I could produce much better submission if I been informed and had time to digest and get some prop clarification on what I’ve failed on. 
 
@@ -159,11 +168,9 @@ select Code icon to Download the ZIP file.
 after download you can save the file and use it in your local environment
 The other way is to Clone or/and Fork this repository (BikeMemoryGame) into your GitHub account.
 
-
 # Credits
 I have reached for help to my mentor and fellow students and couple of friends how are developers
 Used those website: (https://www.w3schools.com/), (https://developer.mozilla.org/), (https://codepen.io/), (https://learn.codeinstitute.net/),
-
 
 # Screenshots
 
