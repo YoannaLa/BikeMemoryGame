@@ -83,6 +83,10 @@ function Timer() {
   }, 1000);
 }
 
+// Reset timer
+function myButton() {
+  location.reload();
+}
 //If second card match with first card it will return from the function
 function resetBoard() {
   hasFlippedCard = false;
