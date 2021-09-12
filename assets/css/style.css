@@ -14,12 +14,13 @@ body {
     text-align: center;
 }
 
+/* how to play button*/
 .HowToPlayButton {
   padding: 25px 25px 25px 25px;
   align-self: center;
   cursor:pointer;
 }
-/* The Modal */
+
 .modal {
     display: none;
     position: fixed; 
@@ -31,6 +32,7 @@ body {
     overflow: auto; 
      }
   
+/* inside of the How to play */
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto; 
@@ -38,6 +40,7 @@ body {
     border: 1px solid rgb(243, 243, 81);
     width: 25%; 
   }
+
 #myBtn {
     border: 2px solid rgb(243, 243, 81);
     font-size: 15px;
@@ -118,7 +121,7 @@ img {
   background-image: url(../images/Helmet.jpg);
   }
 
-/**score and time area*/
+/*score and time area*/
   #match-it {
     font-size: 25px;
     margin-top: 15px;
@@ -131,7 +134,7 @@ img {
     color: red;
   }
 
-  /** "lets do this again" button*/
+  /* "lets do this again" button*/
   #reset {
     border: 2px solid rgb(243, 243, 81);
     font-size: 15px;
@@ -148,6 +151,7 @@ img {
 
   }
   /* For media medium size screen sizes from 480px wide and dows*/
+  /* the game looks and reactes well in large and middium size scrren*/
   
   @media (max-width: 480px) {
 

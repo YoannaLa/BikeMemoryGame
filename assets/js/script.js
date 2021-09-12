@@ -8,6 +8,7 @@ let firstCard, secondCard;
 console.log ('.bikecard');
 Timer();
 
+//flip card funtion 
 function flipCard() {
 
     if(lockBoard) return;
@@ -27,7 +28,7 @@ function flipCard() {
 
         checkForMatch();
 }
-
+//checking for matches
 function checkForMatch() {
     let isMatch = firstCard.dataset.type == secondCard.dataset.type;
     isMatch ? disableCards() : unflipCards();
@@ -82,14 +83,6 @@ function Timer() {
   }, 1000);
 }
 
-//Congrats message - game over
-                          
-
-//Game Reset
-function myButton() {
-  location.reload();
-}
-
 //If second card match with first card it will return from the function
 function resetBoard() {
   hasFlippedCard = false;
@@ -109,13 +102,13 @@ function resetBoard() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
-// Get the modal
+// how to play modal
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
 
-// Get the <span> element that closes the modal
+// closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
@@ -123,7 +116,7 @@ btn.onclick = function() {
   modal.style.display = "block";
 };
 
-// When the user clicks on <span> (x), close the modal
+//close the modal
 span.onclick = function() {
   modal.style.display = "none";
 };

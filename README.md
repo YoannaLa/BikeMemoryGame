@@ -2,7 +2,7 @@
 
 # JavaScript Essentials - interactive front-end site, by YoannaLa
 
-## The deployed site can be find:
+## The deployed site can be found:
 
 https://github.com/YoannaLa/BikeMemoryGame
 
@@ -22,13 +22,13 @@ Memory game, with 8 pairs of cards, that shuffles every time the player starts a
 A returning player can challenge her/himself and test their memory and find out if is getting any better. 
 
 ## User stories
-####As a website owner
+### As a website owner
 I've noticed a massive trend in last few years of memory or matching games being very popular and I'm a user myself. In creating this game I've combined the love of motorbikes and simple challenge 
 
 ### New user 
 A simple card game which helps to train memory and can be used as a challenge. 
 
-####Returning user goals
+### Returning user goals
 A returning player can test themselves if they memory got any better. 
 
 ## Structure of the website

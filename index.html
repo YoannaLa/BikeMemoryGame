@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,128 +14,133 @@
 
     <meta name="description" content="Joanna Lazarek">
 
-    <title> Memory game - match the motorbikes :-)</title>
+    <title> Memory game - match the motorbikes </title>
 </head>
+
 <body>
     <!--heading-->
     <h1 class="title"> Match the Motorbikes <i class="fas fa-motorcycle"></i>
-            </h1>
+    </h1>
 
     <!--Open The Modal -->
-    <div class="HowToPlayButton"> 
-    <button id="myBtn">How to play?</button>
+    <div class="HowToPlayButton">
+        <button id="myBtn">How to play?</button>
     </div>
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p> This is a motorbike memory game by matching 2 cards.
+                <br>
+                To play simply find a pair of the same bikes.
+                <br>
+                You have 45 seconds to match all pairs.
+                <br>
+                Have Fun!!</p>
 
-    <div class="modal-content">
-    <p> This is a motorbike memory game by matching 2 cards. 
-    <br>
-    To play simply find a pair of the same bikes. 
-    <br>
-        You have 45 seconds to match all pairs.
-    <br>
-    Have Fun!!</p>
+            <span class="close"> Close </span>
+        </div>
+    </div>
 
-    <span class="close"> Close </span>
-  </div>
-</div>
-    
     <!--game area-->
     <div class="game-grid">
 
-            <div class="bikecard" data-type="card1">
-                <img src="assets/images/BlueBike.jpg" alt="blue motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
+        <div class="bikecard" data-type="card1">
+            <img src="assets/images/BlueBike.jpg" alt="blue motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card1">
-                <img src="assets/images/BlueBike.jpg" alt="blue motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
+        <div class="bikecard" data-type="card1">
+            <img src="assets/images/BlueBike.jpg" alt="blue motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card2">
-                <img src="assets/images/BrownBike.jpg" alt="brown motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-             </div>
+        <div class="bikecard" data-type="card2">
+            <img src="assets/images/BrownBike.jpg" alt="brown motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-             <div class="bikecard" data-type="card2">
-                <img src="assets/images/BrownBike.jpg" alt="brown motorbike" class="face-up"> 
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-             </div>
+        <div class="bikecard" data-type="card2">
+            <img src="assets/images/BrownBike.jpg" alt="brown motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card3">
-                <img src="assets/images/GreyBike.jpg" alt="grey motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
+        <div class="bikecard" data-type="card3">
+            <img src="assets/images/GreyBike.jpg" alt="grey motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card3">
-                <img src="assets/images/GreyBike.jpg" alt="grey motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
+        <div class="bikecard" data-type="card3">
+            <img src="assets/images/GreyBike.jpg" alt="grey motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card4">
-                <img src="assets/images/OrangeBike.jpg" alt="orange motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
-    
-            <div class="bikecard" data-type="card4">
-                <img src="assets/images/OrangeBike.jpg" alt="orange motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
-       
-            <div class="bikecard" data-type="card5">
-                <img src="assets/images/PoliceBike.jpg" alt="police motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
+        <div class="bikecard" data-type="card4">
+            <img src="assets/images/OrangeBike.jpg" alt="orange motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card5">
-                <img src="assets/images/PoliceBike.jpg" alt="police motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
+        <div class="bikecard" data-type="card4">
+            <img src="assets/images/OrangeBike.jpg" alt="orange motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card6">
-                <img src="assets/images/RedBullBike.jpg" alt="RedBull motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
-            <div class="bikecard" data-type="card6">
-                <img src="assets/images/RedBullBike.jpg" alt="RedBull motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
+        <div class="bikecard" data-type="card5">
+            <img src="assets/images/PoliceBike.jpg" alt="police motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card7">
-                <img src="assets/images/RepsolBike.jpg" alt="repsol motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
+        <div class="bikecard" data-type="card5">
+            <img src="assets/images/PoliceBike.jpg" alt="police motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card7">
-                <img src="assets/images/RepsolBike.jpg" alt="repsol motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
+        <div class="bikecard" data-type="card6">
+            <img src="assets/images/RedBullBike.jpg" alt="RedBull motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
+        <div class="bikecard" data-type="card6">
+            <img src="assets/images/RedBullBike.jpg" alt="RedBull motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card8">
-                <img src="assets/images/YellowBike2.jpg" alt="yellow motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
+        <div class="bikecard" data-type="card7">
+            <img src="assets/images/RepsolBike.jpg" alt="repsol motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-            <div class="bikecard" data-type="card8">
-                <img src="assets/images/YellowBike2.jpg" alt="yellow motorbike" class="face-up">
-                <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
-            </div>
-            </div>
+        <div class="bikecard" data-type="card7">
+            <img src="assets/images/RepsolBike.jpg" alt="repsol motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
 
-        <section id="score-area">
-            <div><h2 id="match-it"> You have <span id="count-down" class="timer"> </span> seconds find 8 pairs!</h2> </div>
-            <br>
+        <div class="bikecard" data-type="card8">
+            <img src="assets/images/YellowBike2.jpg" alt="yellow motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
+
+        <div class="bikecard" data-type="card8">
+            <img src="assets/images/YellowBike2.jpg" alt="yellow motorbike" class="face-up">
+            <img src="assets/images/Helmet.jpg" alt="helmet" class="face-down">
+        </div>
+    </div>
+
+    <!-- Score area-->
+    <section id="score-area">
+        <div>
+            <h2 id="match-it"> You have <span id="count-down" class="timer"> </span> seconds find 8 pairs!</h2>
+        </div>
+        <br>
         <button id="reset" onclick="myButton()"> Lets start again </button>
-             </section>
+    </section>
     
-             <section class="created-by"> 
-  <h3 class="footer"> Created by YoannaLa </h3>
-</section>
+<!--author-->
+    <section class="created-by">
+        <h3 class="footer"> Created by YoannaLa </h3>
+    </section>
 
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/1538883306.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
