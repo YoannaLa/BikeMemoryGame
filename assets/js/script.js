@@ -83,7 +83,7 @@ function Timer() {
   }, 1000);
 }
 
-// Reset timer
+// reset time and game
 function myButton() {
   location.reload();
 }
